@@ -1,0 +1,64 @@
+ls
+    print all folders inside the directory
+
+pwd
+    prints the working directory
+
+relative path
+    related to the location from current directory
+    only works if the folder is in the curreent directory
+    works relatively to the current directory
+
+absolute path
+    starts with forwards slash
+
+mkdir
+    create a new directory
+    can be single or multiple directory
+        ex. mkdir dir_name1 dirname_2 dirname_3
+
+man
+    shows the description of the command and its flags 
+
+touch
+    modifies the access types of files
+    creates an empty file in the current directory
+    it takes the name as its argument
+        ex. touch filename.extension
+    can create multiple files as well
+        ex. touch index.html style.css script.js
+
+rm & rmdir
+    allows to delete files and directories(must be empty) respectively
+        ex. rm filename.extension
+        ex. rmdir directoryName
+    use rm to use flags for deleting directories that are not empty
+        ex. rm -rf directoryName
+
+shortcut commands for terminal:
+    cd /
+        go to root directory
+
+    cd ~
+        go to home directory
+
+Node.js
+    open source server environment
+    free to use
+    used for:
+        web servers
+        command line tools
+        native apps
+        video games
+    can write JavaScript commands inside its REPL
+    
+node
+    command that enters the Node REPL(Read, Evaluate, Print, and Loop)
+
+.help
+    command that provides additional command and their description
+
+REPL
+    an easy to use command-line tool
+    it interprets JavaScript code
+    ctrl+c/ctrl+d will exit the Node REPL
