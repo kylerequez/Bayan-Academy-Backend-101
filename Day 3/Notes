@@ -1,0 +1,20 @@
+npm install
+    can install all the dependencies of the module from the package.json file
+
+express
+    Node.js web app framework that provides broad features for building web and mobile applications
+    it can build single/multi/hybrid web app that can manage servers and routes
+    express helps us to:
+        start a server to listen for requests
+        parse incoming requests
+        match those requests to particular routes
+        craft our http response and associated content
+
+npm init -y
+    initialize the node application
+    -y flag skips the necessary information
+
+query strings
+    comes after the ? in the url
+    key value pairs are separated by the ampersand(&)
+    

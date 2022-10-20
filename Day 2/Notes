@@ -1,0 +1,10 @@
+Module.exports
+    exports instructions inside a Module
+
+npm
+    is a package manager for JavaScript
+    it consists of a command line client called npm
+    about npm:
+        a library of thousands of packages
+        a command line tool to install these packages
+

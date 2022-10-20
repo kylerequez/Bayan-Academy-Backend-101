@@ -1,0 +1,3 @@
+[submodule "node-group-chat"]
+	path = node-group-chat
+	url = https://github.com/dkhd/node-group-chat.git
