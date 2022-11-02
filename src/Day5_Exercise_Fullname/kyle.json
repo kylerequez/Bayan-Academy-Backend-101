@@ -1,0 +1,28 @@
+{
+    "home":{
+        "title": "Home",
+        "desc": "The home page",
+        "information":[
+            "My name is Kyle Pasco Requez and welcome to my home page",
+            "and I am an aspiring Full Stack Developer."
+        ]
+    },
+    "about":{
+        "title": "About",
+        "desc": "The about page",
+        "information":[
+            "I currently live in Quezon City.",
+            "I am currently 22 years old.",
+            "I study at the University of Santo Tomas.",
+            "I am a graduating student.",
+            "I am passionate about this course."
+        ]
+    },
+    "contact":{
+        "title": "Contact",
+        "desc": "The contact page",
+        "information":[
+            "https://www.linkedin.com/in/kyle-requez/"
+        ]
+    }
+}

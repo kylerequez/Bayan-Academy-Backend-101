@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') -%>
+  <body>
+    <%- include('partials/navbar') -%>
+    <div class="container-fluid">
+      <h1>Welcome to the <%= name %> subreddit</h1>
+      <h2><%= description %></h2>
+      <h3>Subscriber count: <%= subscribers %></h3>
+    </div>
+    <% if(posts){ %> <% for(let post of posts) { %>
+    <div class="container-fluid">
+      <article>
+        <strong><%= post.title %></strong><br />
+        By: <%= post.author %><br />
+        <% if(post.img){ %>
+        <img
+          src="<%= post.img %>"
+          alt="<%= post.title %>"
+          width="20%"
+          height="20%"
+        />
+        <% } %>
+      </article>
+      <br />
+    </div>
+    <% } %> <% } %>
+  </body>
+</html>

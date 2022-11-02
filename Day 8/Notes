@@ -1,0 +1,34 @@
+SQL Databases
+    mySQL
+    PostgreSQL
+    SQLite
+    Oracle
+    Microsoft SQL Server
+
+No-SQL Databases
+    MongoDB
+    CouchDB
+    Neo4j
+    Cassandra
+    Redis
+
+Why MongoDB
+    It is commonly used with Node and Express
+    It is easy to get started
+
+use db_name
+    Mongo command that switches to a Databases
+    it checks first if there is an existing db, else it create a new one
+
+db.Collection.insertOne({ data })
+    Inserts one document inside a collection
+
+db.Collection.insertMany([ { data }, { data }, ... ])
+    Inserts multiple documents inside a collection
+
+db.Collection.find()
+    query of a Collection
+
+Mongoose
+    a Object Data Modeling library for MongoDB and Node.js
+    manages relationships between data, provides schema validation, and is used to translate between objects in code and its representation in MongoDB

@@ -1,0 +1,17 @@
+GET Route
+    used to retrieve information
+    data is sent via query string
+    information is plainly visible in the url
+    limited amount of data can be sent
+
+POST Route 
+    used to post to the server
+    used to write/create
+    data is sent via request body
+    any amount of data can be sent
+
+REST 
+    Representation State Transfer
+    an architechtural style for distributing hypermedia systems
+    a set of guidelines for how client and server communicates
+

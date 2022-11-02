@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/header') %>
+<body>
+    <%- include('partials/navbar') %>
+    <div class="container-fluid pt-3" style="">
+        <%= desc %>
+    </div>
+    <% for(let data of information){ %>
+        <div class="container-fluid">
+            <%= data %>
+        </div>
+    <% } %>
+</body>
+</html>
